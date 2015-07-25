@@ -16,4 +16,3 @@ while len(prime_list) < 1000:
     number += 1
 
 print sum(prime_list)
-
