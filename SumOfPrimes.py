@@ -8,10 +8,12 @@ def is_prime(n):
         return True
 
 prime_list = []
+number = 2
 
-for number in range(1, 1000):
+while len(prime_list) < 1000:
     if is_prime(number):
         prime_list.append(number)
+    number += 1
 
-print prime_list
+print sum(prime_list)
 
